@@ -1,18 +1,8 @@
-from traceback import print_tb
-
-
-print ("Bismillahir Rahmanir Rahim")
-
-amin = 100
-while(amin < 140):
-    print (1 + 2)
-    print(amin)
-    amin = amin + 1
-
-while(amin > 130):
-    print("Bari Jabo")
-    while(amin > 0):
-        print(100)
-        amin = amin - 50
-    print(amin)
-    amin = amin - 1
+x = 10
+while x > 5:
+    name = input()
+    if name == "Wasiur Rahman":
+        print(name + " is an Admin")
+    else: 
+        print(name + " Vi Salam")
+    x = x - 1
