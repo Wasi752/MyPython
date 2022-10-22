@@ -1,8 +1,5 @@
-x = 10
-while x > 5:
-    name = input()
-    if name == "Wasiur Rahman":
-        print(name + " is an Admin")
-    else: 
-        print(name + " Vi Salam")
-    x = x - 1
+x = "45"
+y = 6
+print(int(x) + y)
+z = input()
+print (int(z) + y)
