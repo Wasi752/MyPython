@@ -1,5 +1,5 @@
-basic = 34000
-incriment = (34000 / 100) * 5
+basic = 40000
+incriment = (basic / 100) * 5
 jeshdha = ((basic + incriment) / 100) * 10
 mul = basic + incriment + jeshdha
 maharga = ((mul / 100) * 10)
