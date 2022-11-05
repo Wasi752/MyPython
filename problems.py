@@ -10,5 +10,19 @@ reg = 0
 while reg <= int(num):
     print(reg)
     reg = reg + 1
-'''
 
+'''
+a = input()
+b = int(a)
+
+while b > 0 :
+    c = input()
+    if len(c) < 11:
+        print(c)
+    else: 
+        f = len(c)
+        g = c[0]
+        h = c[-1]
+        j = f - 2
+        print(g + str(j) + h)
+    b = b - 1
