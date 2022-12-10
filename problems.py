@@ -1,10 +1,10 @@
-a = int(input())
+attend, noOfhighestMark = map(int, input().split())
+marksList = list(map(int, input().split()))
+marksList.sort(reverse=True)
+mark = marksList[noOfhighestMark - 1]
 counter = 0
-while a > 0:
-    b = input()
-    if (b[1] == "+"):
+for x in marksList:
+    if mark <= x and x > 0:
         counter = counter + 1
-    else:
-        counter = counter - 1
-    a = a - 1
 print(counter)
+
