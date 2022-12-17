@@ -1,3 +1,4 @@
+
 r1 = list(map(int, input().split()))
 r2 = list(map(int, input().split()))
 r3 = list(map(int, input().split()))
