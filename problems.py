@@ -1,4 +1,4 @@
-
+'''
 r1 = list(map(int, input().split()))
 r2 = list(map(int, input().split()))
 r3 = list(map(int, input().split()))
@@ -18,3 +18,14 @@ while r < 5:
 x = abs(2 - p[0])
 y = abs(2 - p[1])
 print(x + y)
+'''
+
+counter = 0
+i = 1000
+while i > 0:
+    counter = counter + 1
+    if counter % 5 == 0:
+        print(i, end="\n")
+    else:
+        print(i, "\t", end="")
+    i = i - 1
