@@ -1,14 +1,9 @@
-
 a = int(input())
 b = 1
 while b <= a:
-    c = int(input())
-    d = 1
-    print("Case %d:" %b, end='')
-    while d <= c:
-        if c % d == 0:
-            print(" %d" %d, end='')
-        d = d + 1
-    print('')
+    c = input()
+    first = c[0]
+    last = c[4]
+    sum = int(first) + int(last)
+    print('Sum = %d' %sum)
     b = b + 1
-    
