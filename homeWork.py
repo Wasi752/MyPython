@@ -10,18 +10,18 @@ while a > b:
     a = a - 1
 '''
 a = int(input())
-b = 1
-counter = 0
-while b <= a:
+b = 0
+while a > b:
+    counter = 0
+    counter1 = 0
     c = input()
     for x in c:
+        
         if int(x) % 2 == 0:
             counter = counter + 1
-            i = counter
         else:
-            counter = counter + 1
-            y = counter 
-    print("even = %d" %i, "odd = %d" %y)
-    b = b + 1
+            counter1 = counter1 + 1
+    print("even = %d," %counter, "odd = %d" %counter1)
+    a = a - 1
 
 
