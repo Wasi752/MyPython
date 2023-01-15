@@ -5,8 +5,7 @@ while b <= a:
     last = c % 10
     while c > 0:
         first = c % 10
-        temp = c // 10
-        c = temp 
+        c = c // 10
     sum = first + last
     print('Sum = %d' %sum)
     b = b + 1
