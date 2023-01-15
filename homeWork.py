@@ -44,7 +44,7 @@ while b <= a:
         c = c // 10
     print('Sum = %d' %sum)
     b = b + 1
-    '''
+   
 t = int(input())
 i = 0
 while t > i:
@@ -59,3 +59,51 @@ while t > i:
         j = j + 1
     print('')
     i = i + 1
+ Home Work # 1.
+input
+2
+3
+4
+
+output
+*
+**
+***
+
+*
+**
+***
+****
+''' # 2.
+'''
+input
+2
+3
+4
+
+output
+***
+**
+*
+
+****
+***
+**
+*
+'''
+t = int(input())
+i = 0
+while t > i:
+    n = input()
+    j = 0
+    num = ""
+    while j < len(n):
+        if n[j] != " ":
+            num = num + n[j]
+        else:
+            print(num)
+            num = ""
+        j = j + 1
+    print(num)
+    i = i + 1
+    # Home Work : Koyti Number 1 Line -e
