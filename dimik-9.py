@@ -11,3 +11,6 @@ while i < t:
     else:
         print('NO')
     i = i + 1
+    #10000000 = 1 second
+    # 2 ^ 31 = 2147483648
+    # sqrt() 'Home Work'
