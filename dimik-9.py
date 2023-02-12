@@ -1,3 +1,5 @@
+
+'''
 t = int(input())
 i = 0
 while i < t:
@@ -14,3 +16,15 @@ while i < t:
     #10000000 = 1 second
     # 2 ^ 31 = 2147483648
     # sqrt() 'Home Work'
+    '''
+import math
+t = int(input())
+i = 0
+while i < t:
+    n = int(input())
+    sqrtRoot = int(math.sqrt(n))
+    if sqrtRoot * sqrtRoot == n:
+        print('YES')
+    else:
+        print('NO')
+    i = i + 1
