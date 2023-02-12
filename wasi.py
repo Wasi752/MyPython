@@ -1,4 +1,3 @@
-'''
 a = int(input())
 b = 0
 while a > b:
@@ -27,6 +26,15 @@ while b <= a:
         e = e + 1
     print('')
     a = a - 1
-'''
 
-    
+a = int(input())
+b = 1
+while b <= a:
+    c = int(input()) # 56789 
+    last = c % 10
+    while c > 0:
+        first = c % 10
+        c = c // 10
+    sum = first + last
+    print('Sum = %d' %sum)
+    b = b + 1
