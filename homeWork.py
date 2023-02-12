@@ -1,4 +1,3 @@
-'''
 a = int(input())
 b = 0
 while a > b:
@@ -8,7 +7,7 @@ while a > b:
     sum = (int(first) + int(last)) * len(c) // 2
     print(sum)
     a = a - 1
-
+    
 a = int(input())
 b = 0
 while a > b:
@@ -22,16 +21,6 @@ while a > b:
             counter1 = counter1 + 1
     print("even = %d," %counter, "odd = %d" %counter1)
     a = a - 1
-
-
-input:
-12345
-234
-17890
-output:
-15
-9
-25
 
 a = int(input())
 b = 1
@@ -59,38 +48,7 @@ while t > i:
         j = j + 1
     print('')
     i = i + 1
- Home Work # 1.
-input
-2
-3
-4
-
-output
-*
-**
-***
-
-*
-**
-***
-****
-''' # 2.
-'''
-input
-2
-3
-4
-
-output
-***
-**
-*
-
-****
-***
-**
-*
-'''
+ 
 t = int(input())
 i = 0
 while t > i:
@@ -107,3 +65,4 @@ while t > i:
     print(num)
     i = i + 1
     # Home Work : Koyti Number 1 Line -e
+
